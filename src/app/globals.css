@@ -3,13 +3,77 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --color-blue-900: #0B0D17;
+  --color-blue-300: #D0D6F9;
+  --color-white: #FFFFFF;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-blue-900: var(--color-blue-900);
+  --color-blue-300: var(--color-blue-300);
+  --color-white: var(--color-white);
+
+  --font-bellefair: var(--font-bellefair);
+  --font-barlow: var(--font-barlow);
+  --font-barlow-condensed: var(--font-barlow-condensed);
+
+  --text-preset-1: 9rem;
+  --text-preset-1--line-height: 1.719;
+  --text-preset-1--letter-spacing: 0;
+  --text-preset-1--font-weight: 400;
+  --text-preset-1--font-family: var(--font-bellefair);
+
+  --text-preset-2: 6.25rem;
+  --text-preset-2--line-height: 1.146;
+  --text-preset-2--letter-spacing: 0;
+  --text-preset-2--font-weight: 400;
+  --text-preset-2--font-family: var(--font-bellefair);
+
+  --text-preset-3: 3.5rem;
+  --text-preset-3--line-height: 1.146;
+  --text-preset-3--letter-spacing: 0;
+  --text-preset-3--font-weight: 400;
+  --text-preset-3--font-family: var(--font-bellefair);
+
+  --text-preset-4: 2rem;
+  --text-preset-4--line-height: 1.146875;
+  --text-preset-4--letter-spacing: 0;
+  --text-preset-4--font-weight: 400;
+  --text-preset-4--font-family: var(--font-bellefair);
+
+  --text-preset-5: 1.75rem;
+  --text-preset-5--line-height: 1.2;
+  --text-preset-5--letter-spacing: 4px;
+  --text-preset-5--font-weight: 400;
+  --text-preset-5--font-family: var(--font-barlow-condensed);
+
+  --text-preset-6: 1.75rem;
+  --text-preset-6--line-height: 1.146429;
+  --text-preset-6--letter-spacing: 0;
+  --text-preset-6--font-weight: 400;
+  --text-preset-6--font-family: var(--font-bellefair);
+
+  --text-preset-7: 0.875rem;
+  --text-preset-7--line-height: 1.2;
+  --text-preset-7--letter-spacing: 2px;
+  --text-preset-7--font-weight: 400;
+  --text-preset-7--font-family: var(--font-barlow-condensed);
+
+  --text-preset-8: 1rem;
+  --text-preset-8--line-height: 1.2;
+  --text-preset-8--letter-spacing: 2px;
+  --text-preset-8--font-weight: 400;
+  --text-preset-8--font-family: var(--font-barlow-condensed);
+
+  --text-preset-9: 1.125rem;
+  --text-preset-9--line-height: 1.8;
+  --text-preset-9--letter-spacing: 0;
+  --text-preset-9--font-weight: 400;
+  --text-preset-9--font-family: var(--font-barlow);
+
+  --spacing: 0.005rem;
 }
 
 @media (prefers-color-scheme: dark) {
