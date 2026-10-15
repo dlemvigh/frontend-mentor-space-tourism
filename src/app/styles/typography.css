@@ -1,0 +1,72 @@
+@utility text-preset-1 {
+  font-family: var(--font-bellefair), serif;
+  font-size: 9rem;
+  line-height: 1.719;
+  letter-spacing: 0;
+  font-weight: 400;
+}
+
+@utility text-preset-2 {
+  font-family: var(--font-bellefair), serif;
+  font-size: 6.25rem;
+  line-height: 1.146;
+  letter-spacing: 0;
+  font-weight: 400;
+}
+
+@utility text-preset-3 {
+  font-family: var(--font-bellefair), serif;
+  font-size: 3.5rem;
+  line-height: 1.146;
+  letter-spacing: 0;
+  font-weight: 400;
+}
+
+@utility text-preset-4 {
+  font-family: var(--font-bellefair), serif;
+  font-size: 2rem;
+  line-height: 1.146875;
+  letter-spacing: 0;
+  font-weight: 400;
+}
+
+@utility text-preset-5 {
+  font-family: var(--font-barlow-condensed), sans-serif;
+  font-size: 1.75rem;
+  line-height: 1.2;
+  letter-spacing: 4px;
+  font-weight: 400;
+}
+
+@utility text-preset-6 {
+  font-family: var(--font-bellefair), serif;
+  font-size: 1.75rem;
+  line-height: 1.146429;
+  letter-spacing: 0;
+  font-weight: 400;
+}
+
+@utility text-preset-7 {
+  font-family: var(--font-barlow-condensed), sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.2;
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+
+@utility text-preset-8 {
+  font-family: var(--font-barlow-condensed), sans-serif;
+  font-size: 1rem;
+  line-height: 1.2;
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+
+@utility text-preset-9 {
+  font-family: var(--font-barlow), sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.8;
+  letter-spacing: 0;
+  font-weight: 400;
+}
+

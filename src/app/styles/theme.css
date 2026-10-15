@@ -1,0 +1,16 @@
+@theme {
+  --color-blue-900: #0b0d17;
+  --color-blue-300: #d0d6f9;
+  --color-white: #ffffff;
+
+  /* --spacing: 0.005rem; */
+
+  --breakpoint-tablet: 48rem;
+  --breakpoint-desktop: 75rem;
+}
+
+@theme inline {
+  --font-display: var(--font-bellefair), serif;
+  --font-body: var(--font-barlow), sans-serif;
+  --font-condensed: var(--font-barlow-condensed), sans-serif;
+}
